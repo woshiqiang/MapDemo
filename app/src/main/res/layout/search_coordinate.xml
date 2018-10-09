@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/latitude_edtx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="latitude" />
+
+    <EditText
+        android:id="@+id/longtitude_edtx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="longtitude" />
+
+    <Button
+        android:id="@+id/sclayout_search_coordinate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/sclayout_exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+</LinearLayout>

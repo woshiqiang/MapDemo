@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/continents_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="continents">
+
+        <RadioButton
+            android:id="@+id/asia_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asia" />
+
+        <RadioButton
+            android:id="@+id/europe_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Europe" />
+
+        <RadioButton
+            android:id="@+id/north_america_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="North America" />
+
+        <RadioButton
+            android:id="@+id/south_america_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South America" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/select_continents_ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/select_continents_exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/countries_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/select_countries_ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="OK"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/select_countries_exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_submit_bg_14dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+</LinearLayout>
